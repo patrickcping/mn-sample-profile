@@ -187,13 +187,6 @@
                 "keyPairId": 3,
                 "useServerCipherSuiteOrder": true,
                 "restartRequired": true
-            },
-            {
-                "id": 4,
-                "name": "CONFIG QUERY",
-                "keyPairId": 4,
-                "useServerCipherSuiteOrder": true,
-                "restartRequired": false
             }
         ],
         "keyPairs": [
