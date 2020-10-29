@@ -2,7 +2,7 @@
 # The property "pingcentral.home" is available to be used in templates as "${pingcentral.home}" and is the path to the installed product.
 # This property is optional.  The driver to be used will determined from the spring.datasource.url.
 # If for some reason the driver cannot be determined automatically, it can be specified here.
-spring.datasource.url=jdbc:postgresql://${POSTGRES_SERVICE}:${POSTGRES_PORT}/pingcentral
+spring.datasource.url=jdbc:postgresql://${POSTGRES_SERVICE}:${POSTGRES_PORT}/pingcentral?loggerLevel=DEBUG
 spring.datasource.username=${POSTGRES_USER}
 spring.datasource.password=${POSTGRES_PASSWORD}
 spring.datasource.driver-class-name=org.postgresql.Driver
